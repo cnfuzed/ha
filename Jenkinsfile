@@ -4,8 +4,7 @@ pipeline {
   stages {
     stage('testing') {
       steps {
-        sh 'chmod +x scripts/123.sh'
-        sh 'scripts/123.sh'
+        sh 'aws s3 mb s3://backendtft123123'
       }
     }
 
