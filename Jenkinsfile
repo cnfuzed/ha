@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('testing') {
       steps {
-        sh 'scripts/12.sh'
+        sh 'scripts/123.sh'
       }
     }
 
